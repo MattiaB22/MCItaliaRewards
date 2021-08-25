@@ -1,0 +1,8 @@
+name: MCItaliaRewards
+version: 1.0-SNAPSHOT
+main: it.mattiab22.mcitaliarewards.Main
+author: MattiaB22
+website: https://www.coralmc.it/
+description: Get rewards from voting on minecraft-italia
+commands:
+  rewards:

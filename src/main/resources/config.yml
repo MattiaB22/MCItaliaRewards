@@ -1,0 +1,87 @@
+server-info:
+  name: "writeServerNameHere"
+  key: "addServerKeyHere"
+  last-update: "01/01/1965" #don't touch this unless you don't known what are you doing
+mongodb:
+  authentication: false
+  address: "writeYourMongodbAddressHere"
+  port: 27017
+  database: "writeYourDatabaseNameHere"
+  collection: "writeYourCollectionNameHere"
+  username: "writeYourMongodbUsernameHereIfAuthenticationEnabled"
+  password: "writeYourPasswordHereIfAuthenticationEnabled"
+gui:
+  name: "&cREWARD GUI"
+  rows: 3 #max 6
+  rewards:
+    diamond:
+      material: DIAMOND
+      data: 0
+      amount: 1
+      name: "§bDiamond"
+      lore:
+        - "§7Click here if you want"
+        - "&7to get a &bdiamond &7as"
+        - "&7a reward."
+      command: "give %p diamond 1"
+      run-as-console: true
+      slot: 12
+    msg:
+      material: PAPER
+      data: 0
+      amount: 1
+      name: "§fMsg"
+      lore:
+        - "§7Click here if you want"
+        - "&7to write a &fmessage &7as"
+        - "&7a reward."
+      command: "tell @a Hello my friend!"
+      run-as-console: false
+      slot: 14
+  esthetics:
+    glass:
+      material: STAINED_GLASS_PANE
+      data: 7
+      amount: 1
+      name: "&7Vote us on mc-italia!"
+      lore:
+        - "&fhttp://vote.yourserver.net"
+      slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+    vine:
+      material: VINE
+      data: 0
+      amount: 1
+      name: "&7Join our discord!"
+      lore:
+        - "&fhttp://discord.yourserver.net"
+      slots:
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+lang:
+  no-prizes-to-redeem: "&cYou don't have any prizes to redeem."
+  insufficient-permission: "&cYou don't have enough permission."
+  game-only-command: "&cThis command can only be executed from the game."
+  help-message:
+    - "&f/rewards menu &7- &bOpen the prizes menu"
+    - "&f/rewards summary &7- &bSee how much prizes you can redeem right now."
+    - "&f/rewards link &7- &bGet the link where you can vote us."
+  vote-link: "&cHey you! Vote us on &nhttp://vote.yourserver.net&r&c for get free rewards every day!"
+  prizes-remaining: "&cYou have {0} prizes to redeem."
+  never-voted: "&cYou never voted the server!"
+  prize-redeemed: "&cYou have redeemed a prize!"
