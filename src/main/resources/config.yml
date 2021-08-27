@@ -2,6 +2,7 @@ server-info:
   name: "writeServerNameHere"
   key: "addServerKeyHere"
   last-update: "01/01/1965" #don't touch this unless you don't known what are you doing
+  check-task: true
 mongodb:
   authentication: false
   address: "writeYourMongodbAddressHere"

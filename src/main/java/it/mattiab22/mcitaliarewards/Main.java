@@ -23,7 +23,7 @@ public class Main extends JavaPlugin {
         mongoData = new MongoData(this);
         taskChecker = new TaskChecker(this);
         menuManager = new MenuManager(this);
-        taskChecker.start();
+        if(getConfig().getBoolean("server-info.check-task") == true) taskChecker.start();
         setupCommands();
         setupLang();
     }
